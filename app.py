@@ -12,7 +12,7 @@ st.title("Face Mask Detection")
 import os
 import requests
 
-MODEL_URL = "https://github.com/MadhuraKoshti/Face_Mask_Recognition/releases/download/v1.0/mask_final.keras"
+MODEL_URL = "https://github.com/malipriti210/DL-CNN-Face_recognition/releases/download/v1.0/mask_final.keras"
 
 if not os.path.exists("mask_final.keras"):
     response = requests.get(MODEL_URL)
